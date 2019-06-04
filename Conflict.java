@@ -1,7 +1,11 @@
+import java.util.*;
 
-public class Hello {
+public class Conflict {
 	public static void main(String... args) {
-		System.out.println("Hello World");
+		int rand = 0;
+		for(int x=0;x<10;x++){
+			rand = new java.util.Random().nextInt(101);
+			System.out.println(rand);
 	}
 }
 
